@@ -46,7 +46,8 @@ img.avatar {
 .ul__menu {
   display: flex;  
   justify-content: space-around;
-  width: 400px; 
+  width: 400px;
+  max-width: 100%;
   position: relative; 
   top: 122px;
   margin: 0 auto;  
