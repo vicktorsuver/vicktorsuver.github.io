@@ -63,3 +63,12 @@ img.avatar {
   cursor: pointer;
   text-shadow: 0 1px 1px #0b79da, 0 0 0.65px #0b79da;
 }
+
+/*  @Media - Запросы
+-----------------------*/
+@media  sreen and (max-width: 965px) {
+  .header__block {
+    background: url(https://vicktorsuver.github.io/img/suver__header-400.jpg) no-repeat;
+    height: 400px;  
+  }
+}
