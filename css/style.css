@@ -14,8 +14,9 @@ body {
 }
 /*    Header
 --------------------*/
-img.header__bg {
-  width: 100%;  
+.header__block {
+    background: url(https://vicktorsuver.github.io/img/suver__header-400.jpg) no-repeat;
+    background-size: 100%;
 }
 img.avatar {
   display: block;
