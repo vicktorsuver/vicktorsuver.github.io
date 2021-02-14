@@ -24,9 +24,21 @@ img.avatar {
   background: #1c97d2;
   border-radius: 50%;
   position: relative; 
-  top: -100px;
+  top: -200px;
   margin: 0 auto;
 }
+.slogan {
+    display: block;
+    position: relative;
+    top: -290px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0 black;
+}
+
 /*     Menu
 ----------------------*/
 .ul__menu {
@@ -34,11 +46,11 @@ img.avatar {
   justify-content: space-around;
   width: 500px; 
   position: relative; 
-  top: -70px;
+  top: -170px;
   margin: 0 auto;  
 }
 .ul__menu li a {
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   color: #0473db;
   text-decoration: none;  
