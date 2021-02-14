@@ -59,10 +59,12 @@ img.avatar {
   color: #0473db;
   text-decoration: none;  
   text-transform: uppercase;
+  padding: 0 0 5px 0;
 }
 .ul__menu li a:hover {
   color: coral;
   cursor: pointer;  
+  border-bottom: 2px solid coral;
 }
 
 /*  @Media - Запросы
