@@ -9,6 +9,9 @@ body {
   padding: 0; 
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 h3 {
   font-size: 1.5em;
   color: #0686ff;
@@ -122,6 +125,14 @@ main {
   top: 250px;
   border: 1px solid #0686ff;
   margin: 0 auto;
+}
+.contact__block {
+  position: relative;
+  top: 283px;
+  left: 20%;
+}
+.contact__block a {
+  color: coral;
 }
 
 
