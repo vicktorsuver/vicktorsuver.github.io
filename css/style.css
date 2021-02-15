@@ -11,7 +11,7 @@ body {
 }
 h3 {
   font-size: 1.5em;
-  color: #1c97d2;
+  color: ##0686ff;
 }
 .content {
   max-width: 100%;  
@@ -89,7 +89,7 @@ main {
   max-width: 100%;
   position: relative;
   top: 150px;
-  border: 1px solid #17A0CDFF;
+  border: 1px solid ##0686ff;
   margin: 0 auto;
 }
 ._about h3, ._advantages h3, ._contact h3 {
@@ -107,7 +107,7 @@ main {
   max-width: 100%;
   position: relative;
   top: 200px;
-  border: 1px solid #17A0CDFF;
+  border: 1px solid ##0686ff;
   margin: 0 auto;
 }
 ._contact {
@@ -117,7 +117,7 @@ main {
   max-width: 100%;
   position: relative;
   top: 250px;
-  border: 1px solid #17A0CDFF;
+  border: 1px solid ##0686ff;
   margin: 0 auto;
 }
 
