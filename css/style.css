@@ -67,6 +67,14 @@ img.avatar {
   border-bottom: 2px solid coral;
 }
 
+/*       Maim
+----------------------*/
+main {
+  width: 1000px;
+  max-width: 100%;
+}
+
+
 /*  @Media - Запросы
 -----------------------*/
 @media screen and (max-width: 980px) {
