@@ -153,6 +153,9 @@ main {
   width: 550px;
   max-width: 90%;
 }
+h3 {
+  font-size: 1.3em;
+}
 }
 @media screen and (max-width: 375px) {
   .slogan {
