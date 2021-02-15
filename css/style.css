@@ -156,6 +156,15 @@ main {
 h3 {
   font-size: 1.3em;
 }
+._about h3 {
+  left: 37%;
+}
+._advantages h3 {
+  left: 37%;
+}
+._contact h3 {
+  left: 37%;
+}
 }
 @media screen and (max-width: 375px) {
   .slogan {
