@@ -19,7 +19,7 @@ h3 {
 /*    Header
 --------------------*/
 .header__block {
-  background: url(/img/suver__header__blue-400.jpg) no-repeat;
+  background: url(../img/suver__header__blue-400.jpg) no-repeat;
   background-size: 100%;
   height: 400px;
 }
@@ -146,6 +146,11 @@ main {
   .slogan {
     font-size: 1.4em;
   }
+}
+@media screen and (max-width: 635px) {
+main {
+  padding: 0 20px;
+}
 }
 @media screen and (max-width: 375px) {
   .slogan {
