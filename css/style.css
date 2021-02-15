@@ -150,6 +150,8 @@ main {
 @media screen and (max-width: 635px) {
 main {
   padding: 0 20px;
+  width: 550px;
+  max-width: 100%;
 }
 }
 @media screen and (max-width: 375px) {
