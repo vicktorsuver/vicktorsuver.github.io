@@ -129,7 +129,7 @@ span.post-author.vcard {
 }
 .jump-link a {
     border: 1px solid;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 /*----- COMMENT -----*/
@@ -203,3 +203,73 @@ img.image {
     border: 1px solid #ccc;
     background: #fff;
 }
+/*--------- ЦИТАТЫ ----------*/
+
+blockquote:before {
+    content: '\f10d';
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 1.1em;
+    color: #eee;
+    position: absolute;
+    top: -3px;
+    left: -20px;
+}
+pre:before {
+    content: '\f121';
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 1.1em;
+    color: #eee;
+    position: absolute;
+    top: -3px;
+    left: -22px;
+}
+.fa-files-o {
+    font-style: normal;
+    font-size: 1.1em;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.fa-files-o:hover {
+    cursor: pointer;
+}
+.fa-files-o:active {
+    font-size: 1.3em;
+}
+blockquote {
+    width: 88%;
+    padding: 20px;
+    font-size: .91em;
+    font-style: italic;
+    border: 1px solid #e0e0e0;
+    border-left: 25px solid #262933;
+    background: #f2f3f4;
+    margin: 0 auto;
+    position: relative;
+	box-sizing: border-box;
+}
+pre {
+    width: 90%;
+    padding: 20px 0 20px 10px;
+    font-size: 1.05em;
+    font-family: monospace;
+    border: 1px solid #e0e0e0;
+    border-left: 25px solid #262933;
+    background: #f2f3f4;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+	white-space: pre-wrap;
+}
+
+/*---------- КНОПКА СКАЧАТЬ ---------*/
+button.btn {
+    padding: 5px 10px;
+    color: whitesmoke;
+    background: coral;
+    border: 1px solid #bb4013;
+    border-radius: 5px;
+}
+
