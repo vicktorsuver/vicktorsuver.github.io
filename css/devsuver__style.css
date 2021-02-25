@@ -280,6 +280,15 @@ input.gsc-input {
     width: 99%;
     box-sizing: border-box;
 }
+input.gsc-search-button {
+    padding: 7px 10px;
+    background: #4486f4;
+    border: 1px solid #1b51ad;
+    color: aliceblue;
+}
+table.gsc-search-box td.gsc-input {
+    padding-right: 0px;
+}
 
 
 
