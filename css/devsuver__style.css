@@ -273,3 +273,14 @@ button.btn {
     border-radius: 5px;
 }
 
+/*-------------- SEARCH  ----------------*/
+input.gsc-input {
+    padding: 7px 11px;
+    border: 1px solid #ddd;
+    width: 99%;
+    box-sizing: border-box;
+}
+
+
+
+
