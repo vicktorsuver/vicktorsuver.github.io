@@ -142,6 +142,9 @@ span.comment-actions.secondary-text, span.thread-count, .continue {
 a.comment-reply {
     margin-right: 20px;
 }
+.avatar-image-container {
+    border-radius: 50%;
+}
 
 /*----- ASIDE -----*/
 aside {
