@@ -323,6 +323,43 @@ table.gsc-search-box td.gsc-input {
     padding-right: 0px;
 }
 
+/*------------------ MEDIA QUERIES ----------------------*/
+@media (max-width: 769px) {
+main {
+    width: 99%;
+    margin: 0;
+}
+aside {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+}
+#main_block {
+    width: 96.5%;
+}
+#Subscribe {
+    background: #f5f5f5 url(https://4.bp.blogspot.com/-dNXIw_83Ljs/UNbTlQJ_kWI/AAAAAAAABig/K65wcKzaVwI/s1600/email.png) no-repeat top 43px right 20px;
+    border: 1px solid #ccc;
+    height: 100px;
+    margin: 45px auto 0;
+    padding: 10px;
+    width: 580px;
+    max-width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
