@@ -346,6 +346,50 @@ aside {
     width: 580px;
     max-width: 100%;
 }
+.header {
+    width: 100%;
+}
+.menu {
+    margin-right: 20px;
+}
+.menu ul {
+    display:none;
+}
+
+.menu a.icon {
+   float: right;
+   margin-top: 0px;
+   display: block;
+   color: #eee;
+   border: none;
+}
+
+.menu.responsive {
+	position: relative;
+	z-index: 112;
+	width: 100%;
+}
+.menu.responsive a.icon {
+	position: absolute;
+	right: 0;
+	top: -9px;
+}
+.menu.responsive ul {
+	width: 200px;
+    	height: 100vh;
+    	display: block;
+    	text-align: left;
+    	position: absolute;
+   	 	top: 22px;
+    	right: -20px;
+    	margin-right: 0;
+    	background: #525558;
+}
+	.menu ul li {
+    	margin-left: 0;
+    	padding: 20px 10px 20px 30px;
+		border-bottom: 1px dotted;
+}
 }
 
 
