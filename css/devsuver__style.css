@@ -59,6 +59,9 @@ img.logo {
     display: flex;
     margin-right: 75px;
 }
+.menu .icon {
+	display: none;
+}
 
 /*----- CONTENT -----*/
 .content {
@@ -390,6 +393,27 @@ aside {
     	padding: 20px 10px 20px 30px;
 		border-bottom: 1px dotted;
 }
+}
+@media (max-width: 596px) {
+
+	#Subscribe tr {
+    	display: flex;
+    	flex-wrap: wrap;
+	}
+	#Subscribe td {
+    	width: 100%;
+    	margin-top: 20px;
+	}
+	#Subscribe {
+    	height: 265px !important;
+	}
+	#Subscribe form input.Button {
+		margin-top: 10px;
+	}
+	#Subscribe form input.Text {
+    	width: 280px  !important;
+}
+
 }
 
 
