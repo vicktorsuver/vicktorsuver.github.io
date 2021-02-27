@@ -415,6 +415,13 @@ aside {
 }
 
 }
+@media (max-width: 430px) {
+	#Subscribe form input.Text {
+    	width: 170px  !important;
+}
+
+}
+
 
 
 
