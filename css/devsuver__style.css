@@ -412,6 +412,11 @@ aside {
 	}
 	#Subscribe form input.Text {
     	width: 280px  !important;
+.comment-form {
+    	clear: both;
+    	margin-left: -35px;
+    	margin-right: -35px;
+}
 }
 
 }
