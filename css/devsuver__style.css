@@ -396,29 +396,29 @@ aside {
 }
 @media (max-width: 596px) {
 
-	#Subscribe tr {
+#Subscribe tr {
     	display: flex;
     	flex-wrap: wrap;
-	}
-	#Subscribe td {
+}
+#Subscribe td {
     	width: 100%;
     	margin-top: 20px;
-	}
-	#Subscribe {
+}
+#Subscribe {
     	height: 265px !important;
-	}
-	#Subscribe form input.Button {
+}
+#Subscribe form input.Button {
 		margin-top: 10px;
-	}
-	#Subscribe form input.Text {
+}
+#Subscribe form input.Text {
     	width: 280px  !important;
+}
+	
 .comment-form {
     	clear: both;
     	margin-left: -35px;
     	margin-right: -35px;
 }
-}
-
 }
 @media (max-width: 430px) {
 	#Subscribe form input.Text {
