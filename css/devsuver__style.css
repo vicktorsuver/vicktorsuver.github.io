@@ -123,6 +123,10 @@ span.post-author.vcard {
 	font-size: .75em;
 	margin-top: 15px;
 }
+.post-body img {
+    width: 100%;
+    height: auto;
+}
 .post-comment-link {
 	position: absolute;
 	right: 10px;
