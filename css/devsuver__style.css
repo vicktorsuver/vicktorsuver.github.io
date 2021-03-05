@@ -28,7 +28,14 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-    background: #262933;
+    	background: #262933;
+	position: fixed;
+	top: 0; left: 0;
+	transition: all .3s ease;
+	z-index: 999;
+}
+header.out {
+	transform: translateY(-100%);
 }
 header, header a {
 	color: #fff;
@@ -66,7 +73,7 @@ img.logo {
 /*----- CONTENT -----*/
 .content {
 	width: 1300px;
-	margin: 0 auto;
+	margin: 45px auto;
 	display: flex;
 	max-width: 100%;
 	flex-wrap: wrap;
