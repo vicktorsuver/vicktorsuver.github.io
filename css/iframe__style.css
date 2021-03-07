@@ -1,2 +1,5 @@
 .postCommentButtonHolder {
-    background-color: #ebf4f5 !important;
+    background-color: #bdebf1;
+    padding: 10px 10px 4px 10px;
+    clear: both;
+}
