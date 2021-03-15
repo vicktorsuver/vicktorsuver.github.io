@@ -167,25 +167,19 @@ a.comment-reply {
 }
 
 .comments .comments-content .icon.user.blog-author {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #079863;
-    border-radius: 50%;
-    left: -65px;
-    top: -4px;
+    display: inline-block;
+    height: 18px;
+    margin: 0 0 -4px 6px;
+    width: 39px;
 }
 .comments .comments-content .icon.blog-author:after {
     content: "Autor";
-    width: 36px;
-    height: 12px;
-    background: green;
-    color: #fff;
-    padding: 0 0 2px 7px;
-    display: inline-block;
-    position: absolute;
-    top: 44px;
-    left: -3px;
+    font-family: 'Roboto Condensed';
+    font-size: .8em;
+    color: #e4f0f3;
+    background: #537880;
+    padding: 1px 8px;
+    border-radius: 20px;
 }
 
 
