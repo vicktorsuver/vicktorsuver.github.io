@@ -1,7 +1,7 @@
 if(document.getElementsByClassName == undefined) {
   var images = $('#comments').find('.comment-content')
 } else {
-  var images = document.getElementById('comments').getElementsByClassName('comment-content')
+  var images = document.getElementById('comments').getElementsByClassName('.comment-content')
 }
 
 for (key in images) {
