@@ -156,7 +156,7 @@ main {
 -----------------------*/
 @media screen and (max-width: 980px) {
   .header__block {
-    background: url(https://vicktorsuver.github.io/img/suver__header__blue-400.jpg) no-repeat;
+    background: url(../img/suver__header__blue-400.jpg) no-repeat;
     height: 400px;  
   .slogan {
     font-size: 1.4em;
