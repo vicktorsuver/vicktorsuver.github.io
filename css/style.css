@@ -158,6 +158,7 @@ main {
   .header__block {
     background: url(../img/suver__header__blue-400.jpg) no-repeat;
     height: 400px;  
+  }
   .slogan {
     font-size: 1.4em;
   }
