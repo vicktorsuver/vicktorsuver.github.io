@@ -1,0 +1,72 @@
+<script type="text/javascript">
+    function encode_onclick() {
+    var encel = document.getElementById("encodestr");
+    var plainel = document.getElementById("plainstr");
+    encel.value =encodeURI(plainel.value);//escape(plainstr.value);
+    
+    }
+    
+    function decode_onclick() {
+    var encel = document.getElementById("encodestr");
+    var plainel = document.getElementById("plainstr");
+    plainel.value=decodeURI(encel.value);//unescape(encodestr.value);
+    }
+    
+    
+    
+    function encode1_onclick() {
+    
+    
+    var met = document.getElementsByName("Radio1");
+    var plainel = document.getElementById("plainstr1");
+    var encel = document.getElementById("encodestr1");
+    encel.value = "";
+    if(met[0].checked)
+        encel.value =escape(plainel.value);
+    if(met[1].checked)
+        encel.value =encodeURI(plainel.value);
+    if(met[2].checked)
+        encel.value =encodeURIComponent(plainel.value);
+     if(met[3].checked)
+       {
+    document.getElementById("myform").submit();
+    
+       }     
+    }
+    
+    function decode1_onclick() {
+    
+    var met = document.getElementsByName("Radio1");
+    var plainel = document.getElementById("plainstr1");
+    var encel = document.getElementById("encodestr1");
+    plainel.value ="";
+    
+    if(met[0].checked)
+        plainel.value =unescape(encel.value);
+    if(met[1].checked)
+        plainel.value =decodeURI(encel.value);
+    if(met[2].checked)
+        plainel.value =decodeURIComponent(encel.value);
+    if(met[3].checked)
+       {
+    document.getElementById("myform").submit();
+    
+       }   
+    //plainstr.value=unescape(encodestr.value);
+    }    
+    </script>
+    
+    <form id="myform" method="post" accept-charset="utf-8" action="#koder">
+    
+    <div class="arcell">
+        <p style="text-align:left;">Введите строку в одно из полей и нажмите соответствующую кнопку</p>
+        Строка в закодированном виде<br><br>
+        <textarea name="encodestr1" id="encodestr1" style="width: 260px; height: 173px"></textarea><br>
+        <input name="encode1" id="encode1" type="button" value="Кодировать" onclick="return encode1_onclick()">
+        <input name="decode1" id="decode1" type="button" value="Раскодировать" onclick="return decode1_onclick()"><br>
+        Строка в нормальном виде<br>
+        <textarea name="plainstr1" id="plainstr1" style="width: 260px; height: 158px"></textarea>
+    </div>
+   
+    
+    </form>
